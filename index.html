@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text-judul">
+            <h1>Check your BMI</h1>
+            <p>Enter your weight and height below to chheck your BMI results</p>
+        </div>
+
+        <div class="form-input">
+            <form action="">
+                <div div class="form-group">
+                    <label for="weight">Put your weight in here (KG) </label>
+                    <input type="number" name="weight" id="weight" placeholder="60"> 
+                </div>
+                <div class="form-group">
+                    <label for="height">And your height here (CM)</label>
+                    <input type="number" name="height" id="height" placeholder="167">
+                </div>
+
+                <button class="btn-calculate">Calculate BMI</button>
+                
+                <p id="text-result"> Your BMI is <span id="calculated"></span> which means you are <span id="result"></span></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
